@@ -53,6 +53,7 @@ move to GUI -> manage jenkins->system -> got thinbackup section and give the abo
 
 
 wget --auth-no-challenge --http-user=admin --http-password=11cfee3b155fa66fd9d404115bf89001b2 http://localhost:8080/jnlpJars/jenkins-cli.jar
+#we can get above token from Click on your username in the top right corner, then select security and generate new apitoken
 
 java -jar jenkins-cli.jar -s http://192.168.12.216:8080/ -auth admin:redhat help
 
