@@ -48,6 +48,10 @@ mkdir /var/lib/jenkins/jenkins_backup
 
 move to GUI -> manage jenkins->system -> got thinbackup section and give the above location  -NOTE: tick the boxes and save
 
+need restart of jenkins for it to work
+
+backup and delete some job and then restore but need restart of jenkins to see restored jobs.
+
 
 #####jenkins cli manage jenkins from the cli#######
 
