@@ -10,8 +10,12 @@ sudo -i                                                  # switch to root user
 
 ####BEFORE PUSHING WE NEED THIS CMD TO BE EXECUTED####
 
-#git remote set-url origin git@github.com:saidevops8989/test.git
+#git remote set-url origin git@github.com:DevOps8883/test.git
 
 #git remote -v
 
-#git push -u origin main
+#git remote add origin git@github.com:DevOps8883/index.git    # To add if remote origin is missing 
+
+#git remote -v
+
+#git push -u origin master
